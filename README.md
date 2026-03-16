@@ -1,2 +1,34 @@
-# EPICv2_BrainTumor_Aging
-Illumina Bead Chip Epicv2 950K-GSE229715 data loading, preprocessing and analysis, including:  quality control and normalization (Noob), probe filtering (SNPs, cross-hybridizing, sex chromosomes), differential methylation analysis (DMP, DMR), pathway analysis and GO enrichment. Age associated- epigenetic changes in tumor suppression and DNA repair.
+## Data Source
+- GEO Accession: GSE229715
+- Platform: Illumina MethylationEPIC v2.0 (GPL33022)
+- Samples: 16 brain tumors of various histological types
+- Original study: Turakulov R. et al. (2023)
+
+## Requirements
+- R (version 4.0 or higher)
+- Bioconductor packages:
+  - minfi
+  - limma
+  - DMRcate
+  - IlluminaHumanMethylationEPICv2manifest
+  - IlluminaHumanMethylationEPICv2anno.20a1.hg38
+  - GEOquery
+  - enrichR
+
+## Key Results Summary
+| Analysis | Result |
+|----------|--------|
+| DMRs identified | 5,852 age-associated regions |
+| DMRs located in genes | 80.4% |
+| Top genes | FOXP1, ZFHX3, RAD51B, HDAC4, CAVIN2 |
+| PC1 variance | 18.5% |
+| PC2 age association | 21.2% (R²) |
+
+## License
+MIT License
+
+## Author
+Elena Gardini
+
+## Contact
+elegardini@gmail.com
