@@ -24,6 +24,8 @@
 | PC1 variance | 18.5% |
 | PC2 age association | 21.2% (R²) |
 
+These findings suggest that aging in brain tumors may be associated with epigenetic alterations, including hypermethylation of genes implicated in transcriptional regulation and DNA repair. In particular, hypermethylation of FOXP1, ZFHX3, RAD51B, and HDAC4 could reflect age-related epigenetic remodeling that may influence tumor biology. Additionally, the observed changes in CAVIN2 expression may be consistent with pathways related to tumor invasiveness.
+
 ## License
 MIT License
 
