@@ -24,7 +24,7 @@
 | PC1 variance | 18.5% |
 | PC2 age association | 21.2% (R²) |
 
-Due to the limited sample size (n=16) and the diversity of tumor types (each sample representing a different histological subtype), it is not possible to draw definitive conclusions about age-specific epigenetic alterations. The observed patterns should be interpreted with caution.
+Due to the limited sample size (n=16) and the diversity of tumor types (each sample representing a different histological subtype), it is not possible to draw definitive conclusions about age-specific epigenetic alterations. The observed patterns should be interpreted with caution. The primary aim of this work is educational and methodological.
 
 **Preliminary observations:**
 - Age-associated DMRs were identified in genes involved in transcriptional regulation and DNA repair (FOXP1, ZFHX3, RAD51B, HDAC4, CAVIN2)
