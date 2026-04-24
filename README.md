@@ -1,27 +1,25 @@
 # Illumina MethylationEPIC v2.0 Array Analysis
 
-This repository contains two independent projects analyzing DNA methylation data.
+This repository contains two independent projects analyzing DNA methylation data from the Illumina EPICv2 (950K) array.
 
 ## Projects
 
 ### 1. Brain Tumor Aging Analysis
 Age-associated methylation changes in 16 brain tumor samples (GSE229715).
-➡️ [View project](01_Brain_Tumor_Aging/README.md)
 
-### 2. HPA Axis Candidate Genes - CpG Extraction
+**Key findings**: Age-associated DMRs in genes involved in transcriptional regulation and DNA repair (FOXP1, ZFHX3, RAD51B, HDAC4, CAVIN2).
 
-This section demonstrates how to extract all CpG probes targeting HPA axis-related genes 
-from the Illumina EPICv2 manifest, including promoter regions (10kb upstream).
+➡️ [View project details](01_Brain_Tumor_Aging/README.md)
 
-**Genes analyzed**: CRH, MC2R, CRHR1, CRHR2, POMC, NR3C1, NR3C2, FKBP5, HSP90AA1,
-CYP11B1, CYP17A1, CYP21A2, HSD11B1, HSD11B2, SLC6A4, HTR1A, HTR2A, COMT, DRD2, 
-DRD3, GABRA1, GABRB2, GRIN2A, GRM3, BDNF, NTRK2, CREB1, EGR1, CRP, IL6, TNF, 
-CLOCK, ARNTL, CRY1, CRY2, PER1, PER2.
+### 2. HPA Axis Related Candidate Genes - CpG Extraction
 
-**Output**: 1,896 unique CpG probes with genomic coordinates, CpG island relations, 
-and gene annotations.
+Extraction of all CpG probes targeting HPA axis / HPA axis-related genes from the Illumina EPICv2 manifest, including promoter regions (10kb upstream).
 
-➡️ [View HPA analysis details](02_HPA_Axis_Candidate_Genes/README.md)
+**Genes analyzed**: 36 HPA axis-related genes including NR3C1, BDNF, FKBP5, SLC6A4, CRH, and others.
+
+**Output**: 1,896 unique CpG probes with genomic coordinates, CpG island relations, and gene annotations.
+
+➡️ [View project details](02_HPA_axis_Candidate_Genes/README.md)
 
 ## Author
 Elena Gardini
